@@ -715,7 +715,7 @@
         <animateTransform attributeName="transform" type="rotate" additive="sum"
                           values="-1.6 452 232;1.6 452 232;-1.6 452 232"
                           keyTimes="0;.5;1" dur="2.3s" repeatCount="indefinite"/>
-        <g transform="translate(460 250) scale(0.66) translate(-460 -250)">
+        <g transform="translate(460 252) scale(0.58) translate(-460 -250)">
         <path d="M 434 232 L 470 236" stroke="#c08a3e" stroke-width="22" stroke-linecap="round"/>
 
         <!-- fur cap with a lit top-right and a shaded lower-left -->
@@ -764,7 +764,8 @@
         <path d="M 486 236 L 522 244" stroke="#c08a3e" stroke-width="16" stroke-linecap="round"/>
         <path d="M 488 242 L 520 249" stroke="#9c6d2c" stroke-width="5"
               stroke-linecap="round" opacity=".7"/>
-        <circle cx="526" cy="245" r="8" fill="#f6d9b4" stroke="#9c6d2c" stroke-width="1.6"/>
+        <circle cx="526" cy="246" r="11" fill="#f6d9b4" stroke="#9c6d2c" stroke-width="2"/>
+        <path d="M 520 242 C 524 240 529 240 532 243" fill="none" stroke="#d8b58c" stroke-width="2" opacity=".8"/>
 
         <!-- red scarf, worn over the neck (scales with him) -->
         <path d="M 400 224 C 424 205 490 203 514 218 C 512 232 500 240 486 242
@@ -790,23 +791,23 @@
 
       <!-- trailing scarf: morphs so it ripples -->
       <path fill="#d24536" stroke="#a8352a" stroke-width="2.4" stroke-linejoin="round"
-            d="M 458 232 C 418 218 368 220 324 234 C 358 248 414 252 458 246 Z">
+            d="M 458 228 C 416 202 362 198 320 210 C 354 226 414 236 458 242 Z">
         <animate attributeName="d" dur="1.5s" repeatCount="indefinite"
-                 values="M 458 232 C 418 218 368 220 324 234 C 358 248 414 252 458 246 Z;
-                         M 458 232 C 416 226 366 232 322 246 C 356 254 414 252 458 246 Z;
-                         M 458 232 C 420 212 370 214 326 226 C 360 240 414 252 458 246 Z;
-                         M 458 232 C 418 218 368 220 324 234 C 358 248 414 252 458 246 Z"/>
+                 values="M 458 228 C 416 202 362 198 320 210 C 354 226 414 236 458 242 Z;
+                         M 458 228 C 414 208 362 210 320 224 C 354 234 414 236 458 242 Z;
+                         M 458 228 C 418 196 364 192 322 204 C 356 222 414 236 458 242 Z;
+                         M 458 228 C 416 202 362 198 320 210 C 354 226 414 236 458 242 Z"/>
       </path>
-      <path d="M 442 238 C 410 232 382 234 356 242" fill="none" stroke="#a8352a"
+      <path d="M 442 236 C 408 226 376 230 348 240" fill="none" stroke="#a8352a"
             stroke-width="2.6" opacity=".75"/>
       <!-- thinner second streamer, so the tail reads as cloth, not one bar -->
-      <path d="M 442 250 C 410 246 378 250 350 260 C 378 264 414 260 442 256 Z"
+      <path d="M 442 244 C 408 234 374 238 346 250 C 376 258 412 252 442 248 Z"
             fill="#d24536" stroke="#a8352a" stroke-width="1.8" opacity=".95">
         <animate attributeName="d" dur="1.1s" repeatCount="indefinite"
-                 values="M 442 250 C 410 246 378 250 350 260 C 378 264 414 260 442 256 Z;
-                         M 442 250 C 412 250 380 256 348 266 C 380 268 414 260 442 256 Z;
-                         M 442 250 C 408 244 376 246 348 254 C 376 262 414 260 442 256 Z;
-                         M 442 250 C 410 246 378 250 350 260 C 378 264 414 260 442 256 Z"/>
+                 values="M 442 244 C 408 234 374 238 346 250 C 376 258 412 252 442 248 Z;
+                         M 442 244 C 410 238 378 242 348 252 C 378 262 412 252 442 248 Z;
+                         M 442 244 C 406 232 374 236 346 246 C 374 256 412 252 442 248 Z;
+                         M 442 244 C 408 234 374 238 346 250 C 376 258 412 252 442 248 Z"/>
       </path>
 
       <!-- ============ propeller: blur disc + blades + spinner ============ -->
